@@ -6,7 +6,6 @@ from utils.loss import HDRLoss
 from utils.HDRutils import tonemap
 from utils.dataprocessor import dump_sample
 from dataset.HDR import KalantariTestDataset
-from models.DeepHDR import DeepHDR
 from utils.configs import Configs
 
 
@@ -17,8 +16,12 @@ configs = Configs()
 test_dataset = KalantariTestDataset(configs=configs)
 test_dataloader = DataLoader(test_dataset, batch_size=1, shuffle=True)
 
-# Build DeepHDR model from configs
-model = DeepHDR(configs)
+# Build your model here
+##########################################################
+#             Fill in Your model here!                   #
+##########################################################
+model = YOUR_MODEL(configs)
+
 if configs.multigpu is False:
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     model.to(device)
