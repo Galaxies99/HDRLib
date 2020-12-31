@@ -1,18 +1,9 @@
-[submodule "deeplearning-based/DeepHDR-pytorch"]
-	path = deeplearning-based/DeepHDR-pytorch
-	url = https://github.com/Galaxies99/DeepHDR-pytorch.git
-[submodule "deeplearning-based/NLHDR-pytorch"]
-	path = deeplearning-based/NLHDR-pytorch
-	url = https://github.com/Galaxies99/NLHDR-pytorch.git
-[submodule "deeplearning-based/NHDRRNet-pytorch"]
-	path = deeplearning-based/NHDRRNet-pytorch
-	url = https://github.com/Galaxies99/NHDRRNet-pytorch.git
 [submodule "AlignHDRToolkit"]
 	path = AlignHDRToolkit
 	url = https://github.com/Galaxies99/AlignHDRToolkit.git
 [submodule "NHDRRNet-pytorch"]
-	path = NHDRRNet-pytorch
+	path = samples/NHDRRNet-pytorch
 	url = https://github.com/Galaxies99/NHDRRNet-pytorch.git
 [submodule "DeepHDR-pytorch"]
-	path = DeepHDR-pytorch
+	path = samples/DeepHDR-pytorch
 	url = https://github.com/Galaxies99/DeepHDR-pytorch.git
